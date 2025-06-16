@@ -110,7 +110,7 @@ Evaluation performed using:
 
 ---
 
-## ⚙ Installation
+##  Installation
 
 ```bash
 # Clone the repo
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Run Instructions
+##  Run Instructions
 
 ### 1. Generate Structured QA
 
