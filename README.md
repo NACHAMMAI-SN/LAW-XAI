@@ -170,6 +170,3 @@ python evaluation/score_with_bertscore.py
 
 ---
 
-##  License
-
-This project is licensed under the MIT License. Judgment data derived from public domain sources. Models are trained on freely available LLMs.
