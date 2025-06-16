@@ -82,7 +82,7 @@ When the LLM fails to generate complete or reliable explanations, a rule-based s
 
 ---
 
-## 🌐 Architecture Overview
+##  Architecture Overview
 
 ```
 PDF Judgments --> Structured QA Pairs --> Judgment Label Prediction --> Explanation Generation
@@ -94,7 +94,7 @@ PDF Judgments --> Structured QA Pairs --> Judgment Label Prediction --> Explanat
 
 ---
 
-## 📈 Evaluation
+##  Evaluation
 
 | Component           | Metric             | Result                |
 | ------------------- | ------------------ | --------------------- |
@@ -110,33 +110,7 @@ Evaluation performed using:
 
 ---
 
-## 📅 Repository Structure
-
-```
-LAW-XAI/
-├── data/
-│   └── indiclegalqa.json
-├── models/
-│   ├── falcon_finetuned/
-│   ├── mixtral_prediction/
-│   └── explanation_module/
-├── qa_structuring/
-│   └── build_structured_qa.py
-├── prediction/
-│   └── label_predictor.py
-├── evaluation/
-│   └── score_with_bertscore.py
-├── explanations/
-│   └── rule_fallback.py
-├── results/
-│   └── predictions_and_explanations.json
-├── README.md
-└── requirements.txt
-```
-
----
-
-## ⚙️ Installation
+## ⚙ Installation
 
 ```bash
 # Clone the repo
@@ -181,7 +155,7 @@ python evaluation/score_with_bertscore.py
 
 ---
 
-## 🎓 Citation
+##  Citation
 
 ```bibtex
 @article{veningston2025indiclegalqa,
@@ -195,14 +169,14 @@ python evaluation/score_with_bertscore.py
 
 ---
 
-## 👏 Acknowledgements
+##  Acknowledgements
 
 * Built using the **IndicLegalQA** dataset
 * Powered by **Mixtral**, **Falcon**, **BERTScore**, and open-source legal AI
 
 ---
 
-## 💡 Future Work
+##  Future Work
 
 * Incorporate **High Court and District Court judgments**
 * Add support for **multilingual legal documents**
@@ -211,6 +185,6 @@ python evaluation/score_with_bertscore.py
 
 ---
 
-## ✨ License
+##  License
 
 This project is licensed under the MIT License. Judgment data derived from public domain sources. Models are trained on freely available LLMs.
