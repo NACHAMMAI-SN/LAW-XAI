@@ -152,21 +152,6 @@ python explanations/explanation_pipeline.py
 ```bash
 python evaluation/score_with_bertscore.py
 ```
-
----
-
-##  Citation
-
-```bibtex
-@article{veningston2025indiclegalqa,
-  title={Dataset for Legal Question Answering System in the Indian Judiciary Context},
-  author={Veningston K and Apratim Mishra},
-  journal={Data in Brief},
-  year={2025},
-  doi={10.1016/j.dib.2025.111647}
-}
-```
-
 ---
 
 ##  Acknowledgements
